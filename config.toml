@@ -5,6 +5,9 @@ paginate = "5"
 summaryLength = "10"
 theme = "github.com/themefisher/northendlab-hugo"
 title = "Soham Patil"
+[menu]
+footer = []
+main = []
 [outputs]
 home = ["HTML", "AMP", "RSS", "JSON"]
 [params]
@@ -49,14 +52,11 @@ preloader = ""
 [params.search]
 enable = true
 [[params.social]]
-icon = "ti-facebook"
-link = "#"
-[[params.social]]
 icon = "ti-twitter-alt"
 link = "#"
 [[params.social]]
 icon = "ti-github"
-link = "#"
+link = "https://www.github.com/soham1053"
 [[params.social]]
 icon = "ti-linkedin"
 link = "#"
