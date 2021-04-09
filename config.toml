@@ -5,9 +5,6 @@ paginate = "5"
 summaryLength = "10"
 theme = "github.com/themefisher/northendlab-hugo"
 title = "Soham Patil"
-[menu]
-footer = []
-main = []
 [outputs]
 home = ["HTML", "AMP", "RSS", "JSON"]
 [params]
