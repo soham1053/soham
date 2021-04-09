@@ -1,4 +1,4 @@
-baseURL = "http://www.sohamrp.com"
+baseURL = "https://www.sohamrp.com"
 disqusShortname = ""
 languageCode = "en-us"
 paginate = "5"
