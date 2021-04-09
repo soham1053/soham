@@ -50,7 +50,7 @@ Unlike Monte Carlo Learning, TD Learning has low variance, meaning that TD Learn
 
 ***
 
-This is about as far as I can go without starting to talk about more niche topics, so feel free to contact me if you want to discuss them or want me to make a post on it. Since this was more of an overview on the basics of RL, I'll drop down some of my favorite resources to dive more deep in the field: [David Silver's RL Course](https://www.youtube.com/watch?v=2pWv7GOvuf0&list=PLqYmG7hTraZBiG_XpjnPrSNw-1XQaM_gB "David Silver's RL Course") (most of my post traces back to this course), Lex Fridman's podcasts with RL researchers, [Open AI's Spinning Up](https://spinningup.openai.com/ "Open AI's Spinning Up").
+This is about as far as I can go without starting to talk about more niche topics, so feel free to [contact me](mailto:soham1053@gmail.com "contact me") if you want to discuss them or want me to make a post on it. Since this was more of an overview on the basics of RL, I'll drop down some of my favorite resources to dive more deep in the field: [David Silver's RL Course](https://www.youtube.com/watch?v=2pWv7GOvuf0&list=PLqYmG7hTraZBiG_XpjnPrSNw-1XQaM_gB "David Silver's RL Course") (most of my post traces back to this course), Lex Fridman's podcasts with RL researchers, [Open AI's Spinning Up](https://spinningup.openai.com/ "Open AI's Spinning Up").
 
 This post was based on my [GitHub repository of RL notes](https://github.com/soham1053/Learning-Reinforcement-Learning "GitHub repository of RL notes").
 
