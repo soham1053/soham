@@ -6,6 +6,10 @@ summaryLength = "10"
 theme = "github.com/themefisher/northendlab-hugo"
 title = "Soham Patil"
 [[menu.footer]]
+name = "LinkedIn"
+url = "https://www.linkedin.com/in/soham-r-patil/"
+weight = 2
+[[menu.footer]]
 name = "GitHub"
 url = "https://www.github.com/soham1053"
 weight = 1
