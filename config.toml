@@ -6,21 +6,9 @@ summaryLength = "10"
 theme = "github.com/themefisher/northendlab-hugo"
 title = "Soham Patil"
 [[menu.footer]]
-URL = "contact"
-name = "Contact"
+name = "GitHub"
+url = "https://www.github.com/soham1053"
 weight = 1
-[[menu.footer]]
-URL = "tools"
-name = "tools"
-weight = 2
-[[menu.main]]
-URL = "contact"
-name = "Contact"
-weight = 1
-[[menu.main]]
-URL = "tools"
-name = "tools"
-weight = 2
 [outputs]
 home = ["HTML", "AMP", "RSS", "JSON"]
 [params]
