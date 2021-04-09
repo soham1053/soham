@@ -24,7 +24,7 @@ Now that we got an overview of what reinforcement learning is trying to do, we c
 
 With full knowledge of the MDP(Markov Decision Process), we can train an agent to take optimal actions in the environment. Dynamic programming takes advantage of the fact that MDPs are discrete, and uses that to go through every possible state (look at each possible grid state in Snake), learning how much reward the agent can get from each state (learning that being closer to the apple is good, far away not as good). The agent uses the [Bellman Equations](https://www.youtube.com/watch?v=14BfO5lMiuk "Bellman Equations") to learn.
 
-**Policy Evaluation** - Based on a given policy (agent's strategy), an agent learns how much long term reward it will get from a state using a value function.
+**Policy Evaluation** - Based on a given policy (agent's strategy), an agent learns how much long term reward it will get from a state using a value(long term reward) function.
 
 **Policy Iteration** - Policy Evaluation with a greedy policy, meaning the policy extracts out the action that will give the greatest value estimate for the next state. 1) The value function evaluates the policy, 2) The policy changes to act greedily to the new value function, 3) repeat.
 
@@ -50,7 +50,7 @@ Unlike Monte Carlo Learning, TD Learning has low variance, meaning that TD Learn
 
 ***
 
-This is about as far as I can go without starting to talk about more niche topics, so feel free to contact me if you want to discuss them. Since this was more of an overview on the basics of RL, I'll drop down some of my favorite resources to dive more deep in the field: David Silver's RL Course (most of my post traces back to this course), Open AI's Spinning Up, and if you're new to machine learning in general, I would recommend starting with either Andrew Ng's Deep Learning courses or reading the Deep Learning book by Ian Goodfellow, Yoshua Bengio, and Aaron Courville.
+This is about as far as I can go without starting to talk about more niche topics, so feel free to contact me if you want to discuss them or want me to make a post on it. Since this was more of an overview on the basics of RL, I'll drop down some of my favorite resources to dive more deep in the field: [David Silver's RL Course](https://www.youtube.com/watch?v=2pWv7GOvuf0&list=PLqYmG7hTraZBiG_XpjnPrSNw-1XQaM_gB "David Silver's RL Course") (most of my post traces back to this course), Lex Fridman's podcasts with RL researchers, [Open AI's Spinning Up](https://spinningup.openai.com/ "Open AI's Spinning Up").
 
 This post was based on my [GitHub repository of RL notes](https://github.com/soham1053/Learning-Reinforcement-Learning "GitHub repository of RL notes").
 
