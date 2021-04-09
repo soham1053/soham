@@ -52,9 +52,6 @@ preloader = ""
 [params.search]
 enable = true
 [[params.social]]
-icon = "ti-twitter-alt"
-link = "#"
-[[params.social]]
 icon = "ti-github"
 link = "https://www.github.com/soham1053"
 [[params.social]]
