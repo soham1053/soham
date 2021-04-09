@@ -21,7 +21,7 @@ home = "Home"
 logo = "images/soham-cursive.png"
 [params.banner]
 bgImage = "images/banner/banner-bg.svg"
-image = "images/banner/soham-new.png"
+image = "images/contact.png"
 title = "Hi! I'm Soham Patil, an AI / RL enthusiast and aspiring researcher. "
 [params.cta]
 description = "Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus."
