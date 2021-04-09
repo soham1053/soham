@@ -3,7 +3,7 @@ disqusShortname = ""
 languageCode = "en-us"
 paginate = "5"
 summaryLength = "10"
-theme = "https://github.com/gethugothemes/northendlab-hugo"
+theme = "github.com/themefisher/northendlab-hugo"
 title = "Soham Patil"
 [menu]
 footer = []
