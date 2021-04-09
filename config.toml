@@ -24,14 +24,14 @@ bgImage = "images/banner/banner-bg.svg"
 image = "images//banner/soham-new.png"
 title = "Hi! I'm Soham Patil, an AI / RL enthusiast and aspiring researcher. "
 [params.cta]
-description = "Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus."
-enable = true
-image = "images/hugo-muscot.svg"
-title = "Get the best hugo templates"
+description = ""
+enable = false
+image = ""
+title = ""
 [params.cta.button]
-enable = true
-label = "Visit Here"
-link = "https://gethugothemes.com/shop/"
+enable = false
+label = ""
+link = ""
 [[params.plugins.css]]
 link = "plugins/bootstrap/bootstrap.min.css"
 [[params.plugins.css]]
