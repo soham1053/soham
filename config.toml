@@ -11,14 +11,14 @@ main = []
 [outputs]
 home = ["HTML", "AMP", "RSS", "JSON"]
 [params]
-author = "Themefisher"
+author = "Soham Patil"
 contact_form_action = "#"
-copyright = "&copy; 2020 [Gethugothemes](https://gethugothemes.com) All Rights Reserved"
-description = "This is meta description"
+copyright = "&copy; 2021 Soham Patil"
+description = ""
 google_analitycs_id = ""
 google_tag_manager = ""
 home = "Home"
-logo = "images/logo.svg"
+logo = "images/soham-cursive.png"
 [params.banner]
 bgImage = "images/banner/banner-bg.svg"
 image = "images/banner/illustration.svg"
