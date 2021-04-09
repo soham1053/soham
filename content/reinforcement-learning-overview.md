@@ -8,10 +8,6 @@ title = "Reinforcement Learning Overview"
 type = "post"
 
 +++
-# Reinforcement Learning Overview
-
-***
-
 Before we get started on Reinforcement Learning, let's define our problem. The general RL problem is to create some "agent" that acts optimally in some "environment." This might be a bit too general to understand at first, so let's look at an example: the [Snake](https://www.google.com/fbx?fbx=snake_arcade "Snake") game. In this case, the "agent" would be the snake, the "environment" would be the grid, and to play optimally, the snake would have to eat as many apples as possible.
 
 This brings us to Markov decision processes, or MDPs in short.
