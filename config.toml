@@ -52,6 +52,9 @@ preloader = ""
 [params.search]
 enable = true
 [[params.social]]
+icon = "ti-gmail"
+link = "mailto:soham1053@gmail.com"
+[[params.social]]
 icon = "ti-github"
 link = "https://www.github.com/soham1053"
 [[params.social]]
