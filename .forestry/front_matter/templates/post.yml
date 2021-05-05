@@ -25,4 +25,5 @@ fields:
   label: type
   default: post
 pages:
+- content/a-talk-with-anthony-corso.md
 - content/reinforcement-learning-overview.md
