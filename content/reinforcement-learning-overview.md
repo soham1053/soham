@@ -16,7 +16,7 @@ This brings us to Markov decision processes, or MDPs in short.
 
 \- M.L. Littman
 
-MDPs focus on discrete, stochastic, sequential environments. In the case of the Snake game, the discreteness comes from the fact that there is a finite amount of possible states of the grid, its stochastic nature comes from the random placements of the apples, and it is sequential in the sense that the current state of the grid depends on the previous states. The agent's goal now is to take this MDP and try to get the most "reward," or in the Snake game's example, apples.
+MDPs are models of discrete, stochastic, sequential environments. In the case of the Snake game, the discreteness comes from the fact that there is a finite amount of possible states of the grid, its stochastic nature comes from the random placements of the apples, and it is sequential in the sense that the current state of the grid depends on the previous states. The agent's goal now is to take this MDP and try to get the most "reward," or in the Snake game's example, apples.
 
 Now that we got an overview of what reinforcement learning is trying to do, we can talk about the fun stuff!
 
