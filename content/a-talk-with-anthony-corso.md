@@ -2,7 +2,7 @@
 author = "Soham Patil"
 categories = ["Reinforcement Learning"]
 date = 2021-05-05T02:35:00Z
-description = ""
+description = "hi my name is soham"
 draft = true
 image = "/images/corso.jpg"
 title = "Anthony Corso: SISL, AI Safety, and Julia"
