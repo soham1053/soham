@@ -4,7 +4,7 @@ categories = []
 date = 2021-05-05T02:35:00Z
 description = ""
 draft = true
-image = ""
+image = "/images/corso-1.jpg"
 title = "Anthony Corso: SISL, AI Safety, and Julia"
 type = "post"
 
