@@ -1,8 +1,8 @@
 +++
 author = "Soham Patil"
-categories = ["Reinforcement Learning"]
+categories = []
 date = 2021-05-05T02:35:00Z
-description = "hi my name is soham"
+description = ""
 draft = true
 image = "/images/corso.jpg"
 title = "Anthony Corso: SISL, AI Safety, and Julia"
@@ -15,9 +15,9 @@ Anthony Corso is a post-doctorate researcher at the [Stanford Intelligent System
 
 Autonomous vehicles are being hyped more and more nowadays, but how can we ensure their safety? In this chunk of our conversation, we focused on [one part](https://arxiv.org/pdf/2004.06805.pdf "Interpretable Safety Validation for Autonomous Vehicles") of Anthony's thesis: finding relevant scenarios in which to test the vehicle. Anthony worked on a way to generate dangerous scenarios for these vehicles in simulations, so that their safety can be interpreted by humans without risk. Here, black-box means creating scenarios automatically, without the help of humans or manual labor. Firstly, most previous generators produced scenarios too complicated (high dimensional) for humans to interpret or chose scenarios irregardless of how unrealistic they are (imagine a jaguar jumping onto the vehicle). 
 
-To make the scenario interpretable by humans, Anthony uses a logical formalism called signal temporal logic (STL) to control everything in the environment except for the vehicle. Rather than defining STL, I'll show it through an example of an STL expression: "Between 10 seconds and 15 seconds from the start of the simulation, pedestrian #1 will eventually reach 4 mph." This is just the English representation of it, a more formalised representation would look like so:![](/images/stl_example.png). The diamond stands for "eventually," \[10, 15\] represents the time interval, and x is pedestrian #1's speed. The fact that this expression can be represented as an English sentence proves its interpretability. 
+To make the scenario interpretable by humans, Anthony uses a logical formalism called signal temporal logic (STL) to control everything in the environment except for the vehicle. Rather than defining STL, I'll show it through an example of an STL expression: "Between 10 seconds and 15 seconds from the start of the simulation, a pedestrian will eventually reach 4 mph while walking." This is just the English representation of it; a more formalised representation would look like so:![](/images/stl_example.png). The diamond stands for "eventually," \[10, 15\] represents the time interval, and x is the pedestrian's speed. The fact that this expression can be represented as an English sentence proves its interpretability. 
 
-1. describe STL(solution to high dimensionality)
+1. _DONE describe STL(solution to high dimensionality)_
 2. describe probability distrbution (solution to unlikely scenarios)
 3. describe whole algorithm in easy words
 
