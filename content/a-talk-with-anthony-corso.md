@@ -17,7 +17,7 @@ Autonomous vehicles are being hyped more and more nowadays, but how can we ensur
 
 To make the scenario interpretable by humans, Anthony uses a logical formalism called signal temporal logic (STL) to control everything in the environment except for the vehicle. Rather than defining STL, I'll show it through an example of a very simple STL expression: "Between 10 seconds and 15 seconds from the start of the simulation, a pedestrian will eventually reach 4 mph while walking." This is just the English representation of it; a more formalised representation would look like so:![](/images/stl_example.png). The diamond stands for "eventually," \[10, 15\] represents the time interval, and x is the pedestrian's speed. The fact that this expression can be represented as an English sentence proves its interpretability. Also, since "eventually" is vague such that the expression can represent multiple scenarios, scenarios are sampled from STL expressions.
 
-Instead of directly generating scenarios, the algorithm should learn to create a probability distribution over scenarios (represented by some STL expression) based on the given likelihood that the scenario happens in real life. By sampling this, 
+Instead of directly generating scenarios, the algorithm learns to create a probability distribution over scenarios (represented by some STL expression) based on the given likelihood that the scenario happens in real life. By sampling from this, more realistic scenarios will come up more often than unrealistic scenarios.
 
 1. _DONE describe STL(solution to high dimensionality)_
 2. describe probability distrbution (solution to unlikely scenarios)
