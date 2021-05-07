@@ -9,7 +9,7 @@ title = "Anthony Corso: SISL, AI Safety, and Julia"
 type = "post"
 
 +++
-Anthony Corso is a post-doctorate researcher at the [Stanford Intelligent Systems Laboratory](http://sisl.stanford.edu/ "SISL"), a.k.a. SISL, pronounced "sizzle" :). He wrote his [PhD thesis](http://anthonylcorso.com/wp-content/uploads/2021/02/thesis.pdf "ALGORITHMS FOR BLACK-BOX SAFETY VALIDATION") about algorithms for black-box safety validation of autonomous vehicles, he's the executive director of the [Stanford Center for AI Safety](http://aisafety.stanford.edu/ "Stanford Center for AI Safety"), he wrote a deep reinforcement learning framework in Julia, and I recently got the chance to speak with him.
+Anthony Corso is a postdoctoral researcher at the [Stanford Intelligent Systems Laboratory](http://sisl.stanford.edu/ "SISL"), a.k.a. SISL, pronounced "sizzle" :). He wrote his [PhD thesis](http://anthonylcorso.com/wp-content/uploads/2021/02/thesis.pdf "ALGORITHMS FOR BLACK-BOX SAFETY VALIDATION") about algorithms for black-box safety validation of autonomous vehicles, he's the executive director of the [Stanford Center for AI Safety](http://aisafety.stanford.edu/ "Stanford Center for AI Safety"), he wrote a deep reinforcement learning framework in Julia, and I recently got the chance to speak with him.
 
 ### Black-Box Safety Validation
 
@@ -20,7 +20,7 @@ To make the scenario interpretable by humans, Anthony uses a logical formalism c
 Instead of directly generating scenarios, the algorithm learns to create a probability distribution over scenarios (represented by some STL expression) based on the given likelihood that the scenario happens in real life. By sampling from this, more realistic scenarios will come up more often than unrealistic scenarios.
 
 1. _DONE describe STL(solution to high dimensionality)_
-2. _DONE describe probability distrbution (solution to unlikely scenarios)_
+2. _DONE describe probability distribution (solution to unlikely scenarios)_
 3. describe algorithm simply
 
 ### Stanford Center for AI Safety
