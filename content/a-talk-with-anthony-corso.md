@@ -21,7 +21,7 @@ Instead of directly generating scenarios, the algorithm learns to create a proba
 
 1. _DONE describe STL(solution to high dimensionality)_
 2. _DONE describe probability distrbution (solution to unlikely scenarios)_
-3. describe whole algorithm in easy words
+3. describe whole algorithm in easy peasy words
 
 ### Stanford Center for AI Safety
 
