@@ -1,6 +1,6 @@
 +++
 author = "Soham Patil"
-categories = []
+categories = ["Interview"]
 date = 2021-05-05T02:35:00Z
 description = ""
 draft = true
