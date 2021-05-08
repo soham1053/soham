@@ -17,11 +17,11 @@ Autonomous vehicles are being hyped more and more nowadays, but how can we ensur
 
 To make the scenario interpretable by humans, Anthony uses a logical formalism called signal temporal logic (STL) to control everything in the environment except for the vehicle. Rather than defining STL, I'll show it through an example of a very simple STL expression: "Between 10 seconds and 15 seconds from the start of the simulation, a pedestrian will eventually reach 4 mph while walking." This is just the English representation of it; a more formalised representation would look like so:![](/images/stl_example.png). The diamond stands for "eventually," \[10, 15\] represents the time interval, and x is the pedestrian's speed. The fact that this expression can be represented as an English sentence proves its interpretability. Also, since "eventually" is vague such that the expression can represent multiple scenarios, scenarios are sampled from STL expressions.
 
-Instead of directly generating scenarios, the algorithm learns to create a probability distribution over scenarios (represented by some STL expression) based on the given likelihood that the scenario happens in real life. By sampling from this, more realistic scenarios will come up more often than unrealistic scenarios.
+Instead of directly generating scenarios, the algorithm learns to create a probability distribution (represented by some STL expression) over scenarios based on the given likelihood that the scenario happens in real life. By sampling from this, more realistic scenarios will come up more often than unrealistic scenarios.
 
-1. _DONE describe STL(solution to high dimensionality)_
-2. _DONE describe probability distribution (solution to unlikely scenarios)_
-3. describe algorithm simply
+So how exactly does the learning work? First, a set of STL expressions is sampled from all possible STL expressions. For each expression, a set of scenarios is sampled based on the previously described probability distribution. A cost is computed for each expression, based on how dangerous they are. The STL expressions with the lowest costs are then crossed over and mutated through [genetic programming](https://en.wikipedia.org/wiki/Genetic_programming "Genetic Programming"), with some randomness to allow for exploration. With this new set of expressions, the algorithm loops. 
+
+With this, we can now generate realistic dangerous scenarios for testing. Here's an example that was created by the algorithm in an environment where the autonomous vehicle is a pink car: ![](https://ai.stanford.edu/blog/assets/img/posts/2020-08-25-black-box-safety-validation/A2T_failure.gif)
 
 ### Stanford Center for AI Safety
 
