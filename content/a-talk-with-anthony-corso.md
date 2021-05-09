@@ -9,7 +9,7 @@ title = "Anthony Corso: SISL, AI Safety, and Julia"
 type = "post"
 
 +++
-Anthony Corso is a postdoctoral researcher at the [Stanford Intelligent Systems Laboratory](http://sisl.stanford.edu/ "SISL"), a.k.a. SISL, pronounced "sizzle" :). He wrote his [PhD thesis](http://anthonylcorso.com/wp-content/uploads/2021/02/thesis.pdf "ALGORITHMS FOR BLACK-BOX SAFETY VALIDATION") about algorithms for black-box safety validation of autonomous vehicles, he's the executive director of the [Stanford Center for AI Safety](http://aisafety.stanford.edu/ "Stanford Center for AI Safety"), he wrote a deep reinforcement learning framework in Julia, and I recently got the chance to speak with him.
+Anthony Corso is a postdoctoral researcher at the [Stanford Intelligent Systems Laboratory](http://sisl.stanford.edu/ "SISL"), a.k.a. SISL, pronounced "sizzle" :). He wrote his [PhD thesis](http://anthonylcorso.com/wp-content/uploads/2021/02/thesis.pdf "ALGORITHMS FOR BLACK-BOX SAFETY VALIDATION") about algorithms for black-box safety validation of autonomous vehicles, he's the executive director of the [Stanford Center for AI Safety](http://aisafety.stanford.edu/ "Stanford Center for AI Safety"), he wrote a deep reinforcement learning [framework](https://github.com/ancorso/Crux/ "Crux.jl") in Julia, and I recently ad the opportunity to speak with him.
 
 ### Black-Box Safety Validation
 
@@ -27,6 +27,6 @@ With this, we can now generate realistic dangerous scenarios for testing. Here's
 
 > The mission of the Stanford Center for AI Safety is to develop rigorous techniques for building safe and trustworthy AI systems and establishing confidence in their behavior and robustness, thereby facilitating their successful adoption in society.
 
-Anthony's PhD fits right into this mission; by evaluating autonomous vehicles in dangerous situations, society is more willing to adopt AI systems such as self-driving cars. 
+Anthony's PhD fits right into this mission; by evaluating autonomous vehicles in dangerous situations, society is more willing to adopt AI systems such as self-driving cars. SCAIS (_technically_ doesn't have a short form but welp) strives towards a future of interpretable AI. Most machine learning techniques used today are essentially complex mathematical formulae that map inputs to outputs. 
 
 ### Crux.jl
