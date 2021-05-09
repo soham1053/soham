@@ -29,6 +29,8 @@ With this, we can now generate realistic dangerous scenarios for testing. Here's
 
 Anthony's PhD fits right into this mission; by evaluating autonomous vehicles in dangerous situations, society is more willing to adopt AI systems such as self-driving cars. The center strives towards a future of interpretable AI. Most machine learning techniques used today are essentially complex mathematical formulae that map inputs to outputs, and a lot of current techniques can't abstractly reason with us as well as we'd like. 
 
-For example, the Youtube algorithm may have been made to give users the videos that they want or would be useful to them, but for many people, it has ended up giving them videos that are not useful but addicting. This is because the cost function of the Youtube algorithm is likely very weighted on a user's watch time. Being able to reason with AI systems similar to this is crucial to AI safety.
+For example, the Youtube algorithm may have been made to give users the videos that they want or would be useful to them, but for many people, it has ended up giving them videos that are not useful but addicting. This is because the cost function of the Youtube algorithm is likely very weighted on a user's watch time. Being able to reason with AI systems similar to this is crucial to AI safety. 
+
+Some of the main research directions of the Center for AI Safety are formal techniques for AI safety, learning and control, and   transparency. Formal techniques refer to external methods that ensure the safety of conventional software and hardware systems (one example being automatic test-case generation, which Anthony did research in). The learning and control of AI agents out of simulation can be dangerous, so research is being done to ensure their safe exploration and control. AI transparency is critical to AI safety because 
 
 ### Crux.jl
