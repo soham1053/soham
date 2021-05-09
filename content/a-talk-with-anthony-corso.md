@@ -27,6 +27,8 @@ With this, we can now generate realistic dangerous scenarios for testing. Here's
 
 > The mission of the Stanford Center for AI Safety is to develop rigorous techniques for building safe and trustworthy AI systems and establishing confidence in their behavior and robustness, thereby facilitating their successful adoption in society.
 
-Anthony's PhD fits right into this mission; by evaluating autonomous vehicles in dangerous situations, society is more willing to adopt AI systems such as self-driving cars. The center strives towards a future of interpretable AI. Most machine learning techniques used today are essentially complex mathematical formulae that map inputs to outputs, and a lot of current techniques can't abstractly reason with us as well as we'd like. For example, the Youtube algorithm may have been made to give users the videos that they want or would be useful to them, but for many people, it has ended up giving them 
+Anthony's PhD fits right into this mission; by evaluating autonomous vehicles in dangerous situations, society is more willing to adopt AI systems such as self-driving cars. The center strives towards a future of interpretable AI. Most machine learning techniques used today are essentially complex mathematical formulae that map inputs to outputs, and a lot of current techniques can't abstractly reason with us as well as we'd like. 
+
+For example, the Youtube algorithm may have been made to give users the videos that they want or would be useful to them, but for many people, it has ended up giving them videos that are not useful but addicting. This is because the cost function of the Youtube algorithm is likely very weighted on a user's watch time. Being able to reason with AI systems similar to this is crucial to AI safety.
 
 ### Crux.jl
