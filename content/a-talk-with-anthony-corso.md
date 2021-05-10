@@ -3,7 +3,6 @@ author = "Soham Patil"
 categories = ["Interview"]
 date = 2021-05-05T02:35:00Z
 description = ""
-draft = true
 image = "/images/corso-1.jpg"
 title = "Anthony Corso: SISL, AI Safety, and Julia"
 type = "post"
