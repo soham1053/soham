@@ -41,6 +41,6 @@ Deep RL has been the main talk around reinforcement learning last decade, since 
 
 Although Python is the most popular language in AI today, Anthony and SISL use Julia for its speed and because it's specifically made for statistics and ML. Julia is a multi-paradigm and functional programming language that has the speed of Rust and looks like Python. Most deep RL libraries like OpenAI's Baselines and Tensorforce are on Python, hence the need to expand the RL support for Julia. 
 
-# 
+***
 
 Thanks for reading!
