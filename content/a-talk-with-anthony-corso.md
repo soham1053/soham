@@ -35,7 +35,7 @@ Some of the main research directions of the Center for AI Safety are formal tech
 
 ### Crux.jl
 
-Anthony Corso wrote a library in Julia containing popular deep reinforcement learning algorithms such as [Proximal Policy Optimization](https://arxiv.org/abs/1707.06347) and [Deep Deterministic Policy Gradient](https://arxiv.org/abs/1509.02971). Two intruiging things to talk about here, deep RL and Julia.
+Anthony Corso wrote a library in Julia containing popular deep reinforcement learning algorithms such as [Proximal Policy Optimization](https://arxiv.org/abs/1707.06347) and [Deep Deterministic Policy Gradient](https://arxiv.org/abs/1509.02971). Two intriguing things to talk about here, deep RL and Julia.
 
 Deep RL has been the main talk around reinforcement learning last decade, since it provides a more end-to-end approach for RL problems. Its big kickstart was Deepmind's Nature paper on DQNs in 2015, and has progressed quite far since then, from solving the rubik's cube with a robotic hand to beating the best Dota 2 team. Deep RL is one of the main topics SISL does research in, where the most recent research was in multi-agent control and hierarchical learning.
 
